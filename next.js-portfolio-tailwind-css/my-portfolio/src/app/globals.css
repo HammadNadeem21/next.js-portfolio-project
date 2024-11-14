@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body{
+        color: #448b8e;
+        background-color: #0a1a30;
+    }
+}
+
+@layer components {
+   .menuLink{
+    @apply cursor-pointer hover:border-b-2 relative border-[#448b8e] transition-all duration-100 pb-1;
+   }
+}
