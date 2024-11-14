@@ -26,7 +26,7 @@ const Hero = () => {
             alt="profile"
             height={350}
             width={350}
-            className="rounded-full cursor-pointer border-[5px] border-[#448b8e] hover:shadow-custom-blue"
+            className="rounded-full cursor-pointer border-[5px] border-[#448b8e] hover:shadow-custom-blue transition-all duration-300"
           />
         </div>
 
@@ -52,18 +52,24 @@ const Hero = () => {
           <p className="text-2xl mt-3">
             "Web & Software Development for a Smarter Future"
           </p>
+
+          {/* social-icons */}
           <div className="flex">
-            <div className="mt-6 h-[50px] w-[50px] border-2 border-[#44868b] p-[11px] text-[25px] rounded-full">
+            <a href="https://www.linkedin.com/in/muhammad-hammad-4bba392b4/" target="_blank" className="mt-6 h-[50px] w-[50px] border-2 border-[#44868b] p-[11px] text-[25px] rounded-full hover:bg-[#448b86] hover:text-white cursor-pointer hover:scale-[1.1] hover:translate-y-[-5px] transition-all duration-300">
               <FaLinkedinIn />
-            </div>
-            <div className="mt-6 ml-3 h-[50px] w-[50px] border-2 border-[#44868b] p-[11px] text-[25px] rounded-full">
+            </a>
+
+            <a href="https://github.com/HammadNadeem21" target="_blank" className="mt-6 ml-3 h-[50px] w-[50px] border-2 border-[#44868b] p-[11px] text-[25px] rounded-full  hover:bg-[#448b86] hover:text-white cursor-pointer hover:scale-[1.1] hover:translate-y-[-5px] transition-all duration-300">
               <FaGithub />
-            </div>
-            <div className="mt-6 ml-3 h-[50px] w-[50px] border-2 border-[#44868b] p-[11px] text-[25px] rounded-full">
+            </a>
+
+            <a href="https://www.facebook.com/share/19oP2aDfZv/" target="_blank" className="mt-6 ml-3 h-[50px] w-[50px] border-2 border-[#44868b] p-[11px] text-[25px] rounded-full  hover:bg-[#448b86] hover:text-white cursor-pointer hover:scale-[1.1] hover:translate-y-[-5px] transition-all duration-300">
               <FaFacebook />
-            </div>
+            </a>
           </div>
-          <button className="mt-4 w-[150px] h-[50px]  border-2 border-[#44868b] rounded-full text-lg font-bold hover:bg-[#44868b] hover:text-[#0a1a30]">
+
+          {/* button */}
+          <button className="mt-4 w-[150px] h-[50px]  border-2 border-[#44868b] rounded-full text-lg font-bold hover:bg-[#44868b] hover:text-[#0a1a30] hover:scale-[1.1] transition-all duration-300">
             <a
               href="https://www.linkedin.com/in/muhammad-hammad-4bba392b4/"
               target="_blank"

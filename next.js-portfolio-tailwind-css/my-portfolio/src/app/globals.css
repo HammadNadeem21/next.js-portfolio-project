@@ -5,7 +5,7 @@
 @layer base {
     body{
         color: #448b8e;
-        background-color: #0a1a30;
+        background-color: black;
     }
 }
 
@@ -14,3 +14,18 @@
     @apply cursor-pointer hover:border-b-2 relative border-[#448b8e] transition-all duration-100 pb-1;
    }
 }
+
+.nav-link {
+    @apply relative text-white font-semibold pb-1 cursor-pointer border-b-2 border-transparent;
+  }
+  
+  .nav-link::after {
+    content: '';
+    @apply absolute bottom-0 left-1/2 w-0 h-[2px] bg-[#448b8e] transition-all duration-300 ease-in-out;
+    transform: translateX(-50%);
+  }
+  
+  .nav-link:hover::after {
+    @apply w-full;
+  }
+  

@@ -12,46 +12,31 @@ const Navbar = () => {
 
         <ul className="gap-10 lg:gap-16 hidden md:flex">
           <li>
-            <Link
-              href={`#hero`}
-              className="text-white font-[600] hover:text-[#448b8e] cursor-pointer pb-1 border-b-2 border-transparent hover:border-[#448b8e] transition-all duration-300"
-            >
+            <Link href="#hero" className="nav-link hover:text-[#44868b]">
               HOME
             </Link>
           </li>
 
           <li>
-            <Link
-              href={`#about`}
-              className="text-white font-[600] hover:text-[#448b8e] cursor-pointer pb-1 border-b-2 border-transparent hover:border-[#448b8e] transition-all duration-300"
-            >
+            <Link href="#hero" className="nav-link hover:text-[#44868b]">
               ABOUT
             </Link>
           </li>
 
           <li>
-            <Link
-              href={`#projects`}
-              className="text-white font-[600] hover:text-[#448b8e] cursor-pointer pb-1 border-b-2 border-transparent hover:border-[#448b8e] transition-all duration-300"
-            >
+            <Link href="#hero" className="nav-link hover:text-[#44868b]">
               PROJECTS
             </Link>
           </li>
 
           <li>
-            <Link
-              href={`#skills`}
-              className="text-white font-[600] hover:text-[#448b8e] cursor-pointer pb-1 border-b-2 border-transparent hover:border-[#448b8e] transition-all duration-300"
-            >
+            <Link href="#hero" className="nav-link hover:text-[#44868b]">
               SKILLS
             </Link>
           </li>
 
           <li>
-            <Link
-              href={`#contact`}
-              className="text-white font-[600] hover:text-[#448b8e] cursor-pointer pb-1 border-b-2 border-transparent hover:border-[#448b8e] transition-all duration-300"
-            >
+            <Link href="#hero" className="nav-link hover:text-[#44868b]">
               CONTACT
             </Link>
           </li>
