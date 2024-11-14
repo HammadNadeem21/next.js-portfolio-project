@@ -69,7 +69,7 @@ const Hero = () => {
           </div>
 
           {/* button */}
-          <button className="mt-4 w-[150px] h-[50px]  border-2 border-[#44868b] rounded-full text-lg font-bold hover:bg-[#44868b] hover:text-[#0a1a30] hover:scale-[1.1] transition-all duration-300">
+          <button className="mt-4 w-[150px] h-[50px]  border-2 border-[#44868b] rounded-full text-lg font-bold hover:bg-[#44868b] hover:text-white hover:scale-[1.1] transition-all duration-300">
             <a
               href="https://www.linkedin.com/in/muhammad-hammad-4bba392b4/"
               target="_blank"
