@@ -11,7 +11,7 @@
 
 @layer components {
    .menuLink{
-    @apply cursor-pointer hover:border-b-2 relative border-[#448b8e] transition-all duration-100 pb-1;
+    @apply cursor-pointer hover:border-b-2 relative border-[#448b8e] transition-all duration-100 pb-1 text-white hover:text-[#44868b];
    }
 }
 

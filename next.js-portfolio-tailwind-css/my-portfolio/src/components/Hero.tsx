@@ -20,7 +20,7 @@ const Hero = () => {
       <div className="container flex justify-between px-[90px] py-[90px]">
         {/* Hero-section-left-side */}
 
-        <div>
+        <div data-aos="zoom-in-up">
           <Image
             src={profile}
             alt="profile"
@@ -32,7 +32,7 @@ const Hero = () => {
 
         {/* Hero-section-right-side */}
 
-        <div className="ml-[200px] p-1">
+        <div className="ml-[200px] p-1" data-aos="zoom-in-up">
           <h1 className="text-5xl font-[600] mr-[70px] mt-8">HAMMAD NADEEM</h1>
 
           <h1 className="inline text-4xl font-[600] text-white">I'm a </h1>
