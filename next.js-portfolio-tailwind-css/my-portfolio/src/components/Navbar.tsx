@@ -31,19 +31,19 @@ const Navbar = () => {
           </li>
 
           <li>
-            <Link href="#projects" className="nav-link hover:text-[#44868b]">
+            <Link href="/projects" className="nav-link hover:text-[#44868b]">
               PROJECTS
             </Link>
           </li>
 
           <li>
-            <Link href="#skills" className="nav-link hover:text-[#44868b]">
+            <Link href="/skills" className="nav-link hover:text-[#44868b]">
               SKILLS
             </Link>
           </li>
 
           <li>
-            <Link href="#contact" className="nav-link hover:text-[#44868b]">
+            <Link href="/contact" className="nav-link hover:text-[#44868b]">
               CONTACT
             </Link>
           </li>
@@ -63,23 +63,23 @@ const Navbar = () => {
       {isClick && (
         <ul className="flex flex-col gap-4 mt-4 md:hidden px-2 pt-2 pb-3 space-y-1 sm:px-3 text-center">
           <li className="menuLink nav-link">
-            <Link href={`#hero`}>HOME</Link>
+            <Link href={`/`}>HOME</Link>
           </li>
 
           <li className="menuLink nav-link">
-            <Link href={`#about`}>ABOUT</Link>
+            <Link href={`/about`}>ABOUT</Link>
           </li>
 
           <li className="menuLink nav-link">
-            <Link href={`#projects`}>PROJECTS</Link>
+            <Link href={`/projects`}>PROJECTS</Link>
           </li>
 
           <li className="menuLink nav-link">
-            <Link href={`#skills`}>SKILLS</Link>
+            <Link href={`/skills`}>SKILLS</Link>
           </li>
 
           <li className="menuLink nav-link">
-            <Link href={`#contact`}>CONTACT</Link>
+            <Link href={`/contact`}>CONTACT</Link>
           </li>
         </ul>
       )}

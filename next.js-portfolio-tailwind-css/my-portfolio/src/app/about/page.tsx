@@ -6,9 +6,9 @@ const About = () => {
     <div id="about" className="text-[#448b8e]">
       <Navbar />
 
-      <div className="sm:px-[100px] px-[50px] py-[70px]">
-        <div className="lg:w-[800px] md:[700px] text-[20px] ">
-          <div data-aos="fade-up" className="mt-20">
+      <div className="lg:px[80px] sm:px-[100px] px-[50px] py-[70px]">
+        <div className="lg:w-[1000px] md:w-[700px] text-[20px] ">
+          <div data-aos="fade-up" className="md:mt-20 sm:mt-3">
             <h1 className="text-white text-4xl font-bold">ABOUT ME</h1>
             <p className="mt-5">
               Hi! I’m Hammad, a passionate Web Developer specializing in
