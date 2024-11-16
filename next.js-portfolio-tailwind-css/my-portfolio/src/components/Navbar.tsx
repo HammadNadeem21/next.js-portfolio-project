@@ -19,31 +19,31 @@ const Navbar = () => {
 
         <ul className="gap-10 lg:gap-16 md:gap-5 sm:gap-2 hidden md:flex">
           <li>
-            <Link href="#hero" className="nav-link hover:text-[#44868b]">
+            <Link href="/" className="nav-link hover:text-[#44868b]">
               HOME
             </Link>
           </li>
 
           <li>
-            <Link href="#hero" className="nav-link hover:text-[#44868b]">
+            <Link href="/about" className="nav-link hover:text-[#44868b]">
               ABOUT
             </Link>
           </li>
 
           <li>
-            <Link href="#hero" className="nav-link hover:text-[#44868b]">
+            <Link href="#projects" className="nav-link hover:text-[#44868b]">
               PROJECTS
             </Link>
           </li>
 
           <li>
-            <Link href="#hero" className="nav-link hover:text-[#44868b]">
+            <Link href="#skills" className="nav-link hover:text-[#44868b]">
               SKILLS
             </Link>
           </li>
 
           <li>
-            <Link href="#hero" className="nav-link hover:text-[#44868b]">
+            <Link href="#contact" className="nav-link hover:text-[#44868b]">
               CONTACT
             </Link>
           </li>

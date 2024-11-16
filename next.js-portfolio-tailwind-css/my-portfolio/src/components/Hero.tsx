@@ -15,7 +15,6 @@ import { FaFacebook } from "react-icons/fa";
 const Hero = () => {
   return (
     <div id="hero" className="min-h-screen">
-      <Navbar />
 
       {/* Hero section start */}
       <div className="grid md:grid-cols-2 sm:grid-cols-1 justify-center pt-[100px] lg:px-[80px] md:px-[50px]  sm:justify-center">
