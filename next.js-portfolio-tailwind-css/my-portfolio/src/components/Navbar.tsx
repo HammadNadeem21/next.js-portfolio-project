@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <div className="container pt-8">
       <div className="flex justify-between items-center lg:px-5">
-        <div className=" text-white font-extrabold lg:text-[30px] md:text-[25px] hover:scale-[1.2] transition-all duration-300 ml-5 leading-tight cursor-pointer">
+        <div className=" text-white font-extrabold lg:text-[30px] md:text-[30px] text-[25px] hover:scale-[1.2] transition-all duration-300 ml-5 leading-tight cursor-pointer">
           HAMMAD <span className="text-[#448b8e]">NADEEM</span>
         </div>
 
