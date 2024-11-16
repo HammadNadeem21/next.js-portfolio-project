@@ -17,18 +17,30 @@ const Hero = () => {
     <div id="hero" className="min-h-screen">
       <Navbar />
 
-      <div className="container flex justify-between px-[90px] py-[90px]">
+{/* Hero section start */}
+      <div className="container md:flex md:flex-row flex-col  justify-between px-[90px] py-[90px]">
         {/* Hero-section-left-side */}
-
-        <div data-aos="zoom-in-up">
+        {/* <div data-aos="zoom-in-up md:h-[350px] md:w-[350px]">
           <Image
             src={profile}
             alt="profile"
             height={350}
             width={350}
-            className="rounded-full cursor-pointer border-[5px] border-[#448b8e] hover:shadow-custom-blue transition-all duration-300"
+            className="md:rounded-full cursor-pointer border-[5px] border-[#448b8e] hover:shadow-custom-blue transition-all duration-300 "
           />
-        </div>
+        </div> */}
+
+<div data-aos="zoom-in-up">
+  <Image
+    src={profile}
+    alt="profile"
+    height={400}
+    width={400}
+    className=" rounded-full cursor-pointer border-[5px] border-[#448b8e] hover:shadow-custom-blue transition-all duration-300"
+  
+  />
+</div>
+
 
         {/* Hero-section-right-side */}
 
