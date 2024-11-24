@@ -5,7 +5,7 @@ import React from "react";
 // Typewriter library
 import Typewriter from "typewriter-effect";
 // component
-import Navbar from "./Navbar";
+// import Navbar from "./Navbar";
 
 // Social-icons
 import { FaLinkedinIn } from "react-icons/fa";
@@ -51,7 +51,7 @@ const Hero = () => {
             />
           </h1>
           <p className="lg:text-3xl md:text-2xl text-1xl mt-3">
-            "Web & Software Development for a Smarter Future"
+          &quot;Web & Software Development for a Smarter Future&quot;
           </p>
 
           {/* social-icons */}
