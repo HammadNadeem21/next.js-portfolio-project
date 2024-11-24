@@ -59,7 +59,7 @@ const Hero = () => {
             <a
               href="https://www.linkedin.com/in/muhammad-hammad-4bba392b4/"
               target="_blank"
-              className="mt-6 h-[50px] w-[50px] border-2 border-[#44868b] p-[11px] text-[25px] rounded-full hover:bg-[#448b86] hover:text-white cursor-pointer hover:scale-[1.1] hover:translate-y-[-5px] transition-all duration-300"
+              className="mt-6 h-[50px] w-[50px] border-2 border-[#44868b] p-[11px] text-[25px] rounded-full hover:bg-[#448b86] hover:text-white cursor-pointer hover:scale-[1.1] hover:translate-y-[-5px] transition-all duration-300 text-[#448b8e]"
             >
               <FaLinkedinIn />
             </a>
