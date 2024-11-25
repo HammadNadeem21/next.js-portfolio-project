@@ -29,3 +29,16 @@
     @apply w-full;
   }
   
+  @keyframes fill {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  .progress-bar-fill {
+    animation: fill 1s ease-in-out;
+  }
+  
