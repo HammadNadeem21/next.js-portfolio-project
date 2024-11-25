@@ -1,11 +1,10 @@
 "use client";
 import Image from "next/image";
-import profile from "../app/image/profile.jpg";
+import profile from "../../public/profile.jpg";
 import React from "react";
 // Typewriter library
 import Typewriter from "typewriter-effect";
 // component
-// import Navbar from "./Navbar";
 
 // Social-icons
 import { FaLinkedinIn } from "react-icons/fa";
