@@ -27,7 +27,6 @@ const Projects = () => {
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-wrap -m-4">
           {/* projects */}
-          {/* <div className="flex flex-wrap -m-4" data-aos="fade-up"> */}
           <div className="p-4 md:w-1/3" data-aos="fade-up">
             <div className="h-full border-2 border-[#448b8e] border-opacity-60 rounded-lg overflow-hidden">
               <Image
@@ -151,10 +150,8 @@ const Projects = () => {
 
         
 
-          {/* </div> */}
 
 
-          {/* <div className="flex flex-wrap -m-4 mt-5" data-aos="fade-up"> */}
 
           <div className="p-4 md:w-1/3" data-aos="fade-up">
             <div className="h-full border-2 border-[#448b8e] border-opacity-60 rounded-lg overflow-hidden">
@@ -175,7 +172,7 @@ const Projects = () => {
                 A responsive and visually appealing portfolio website created using HTML, CSS, and JavaScript. This sample project demonstrates a modern layout to showcase skills, projects, and contact information. It includes smooth navigation and interactive elements, making it a practical example of my frontend development skills.
                 </p>
             
-                <div className="flex items-center flex-wrap mt-[80px]">
+                <div className="flex items-center flex-wrap mt-[110px]">
                   <a className="text-[#448b8e] inline-flex items-center md:mb-2 lg:mb-0 cursor-pointer text-2xl underline underline-offset-4" target="_blank">
                     view
                
@@ -215,7 +212,7 @@ const Projects = () => {
             A classic Tic-Tac-Toe game built using HTML, CSS, and JavaScript. This interactive project allows two players to compete on a 3x3 grid. The game includes logic to detect wins, losses, and draws, making it a complete and functional implementation of the timeless game. Styled with CSS for a clean layout, it showcases my ability to create interactive applications using JavaScript.
                 </p>
             
-                <div className="flex items-center flex-wrap mt-[80px]">
+                <div className="flex items-center flex-wrap mt-[85px]">
                   <a className="text-[#448b8e] inline-flex items-center md:mb-2 lg:mb-0 cursor-pointer text-2xl underline underline-offset-4" target="_blank">
                     view
                
@@ -255,7 +252,7 @@ const Projects = () => {
                 A responsive clone of the NRCodex website built using HTML and CSS. This project replicates the layout and design of the original website, demonstrating my skills in creating pixel-perfect websites. The clone includes all the major sections, such as the header, footer, and main content, with a focus on achieving a similar look and feel as the original site
                 </p>
             
-                <div className="flex items-center flex-wrap mt-[75px]">
+                <div className="flex items-center flex-wrap mt-[110px]">
                   <a className="text-[#448b8e] inline-flex items-center md:mb-2 lg:mb-0 cursor-pointer text-2xl underline underline-offset-4" target="_blank">
                     view
                
@@ -274,7 +271,6 @@ const Projects = () => {
             </div>
           </div>
          
-          {/* </div> */}
          
 
         </div>

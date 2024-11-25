@@ -10,8 +10,8 @@ const About = () => {
         <div className="lg:w-[1000px] md:w-[700px] text-[20px] ">
           <div data-aos="fade-up" className="md:mt-20 sm:mt-3">
             <h1 className="text-white text-4xl font-bold">ABOUT ME</h1>
-            <p className="mt-5">
-              Hi! I’m Hammad, a passionate Web Developer specializing in
+            <p className="mt-5 md:text-[22px] text-[18px]">
+              Hi! I&apos;m Hammad, a passionate Web Developer specializing in
               frontend development with a keen eye for design and functionality.
               I am also venturing into software development and backend
               programming, aiming to become a full-stack developer.
@@ -24,7 +24,7 @@ const About = () => {
           <br />
           <div data-aos="fade-up">
             <h2 className="text-white text-3xl font-bold">What I Do</h2>
-            <ul className="list-none mt-5">
+            <ul className="list-none mt-5 md:text-[22px] text-[18px]">
               <li className="before:content-['•'] before:text-white before:text-2xl before:mr-4">
                 <span className="text-white font-bold">Frontend Development :</span> Creating
                 user-centric, responsive, and visually appealing interfaces.
@@ -42,16 +42,14 @@ const About = () => {
                 applications.
               </li>
 
-              {/* <li className="text-gray-800 before:content-['•'] before:text-white before:text-3xl before:mr-2">
-    Frontend Development
-  </li> */}
+        
             </ul>
           </div>
           <br />
 
           <div data-aos="fade-up">
             <h2 className="text-white text-3xl font-bold">My Vision</h2>
-            <p className="mt-5">
+            <p className="mt-5 md:text-[22px] text-[18px]">
               I aim to combine my skills in{" "}
               <span className="font-bold">
                 web development, software engineering, and emerging technologies
