@@ -27,8 +27,8 @@ const Projects = () => {
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-wrap -m-4">
           {/* projects */}
-          <div className="flex flex-wrap -m-4" data-aos="fade-up">
-          <div className="p-4 md:w-1/3">
+          {/* <div className="flex flex-wrap -m-4" data-aos="fade-up"> */}
+          <div className="p-4 md:w-1/3" data-aos="fade-up">
             <div className="h-full border-2 border-[#448b8e] border-opacity-60 rounded-lg overflow-hidden">
               <Image
                 src={todo}
@@ -68,7 +68,7 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="p-4 md:w-1/3">
+          <div className="p-4 md:w-1/3" data-aos="fade-up">
             <div className="h-full border-2 border-[#448b8e] border-opacity-60 rounded-lg overflow-hidden">
               <Image
                 src={digitalClock}
@@ -108,52 +108,8 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="p-4 md:w-1/3">
-            <div className="h-full border-2 border-[#448b8e] border-opacity-60 rounded-lg overflow-hidden">
-              <Image
-                src={portfolio}
-                alt="portfolio"
-                height={500}
-                width={500}
-                className="lg:h-56 md:h-40 w-full object-cover object-center"
-              />
-              <div className="p-6">
-               
-                <h1 className="title-font text-3xl text-[#448b8e] font-medium mb-3 underline underline-offset-[6px]">
-                  Portfolio
-                </h1>
 
-                <p className="leading-relaxed mb-3">
-                A responsive and visually appealing portfolio website created using HTML, CSS, and JavaScript. This sample project demonstrates a modern layout to showcase skills, projects, and contact information. It includes smooth navigation and interactive elements, making it a practical example of my frontend development skills.
-                </p>
-            
-                <div className="flex items-center flex-wrap mt-[80px]">
-                  <a className="text-[#448b8e] inline-flex items-center md:mb-2 lg:mb-0 cursor-pointer text-2xl underline underline-offset-4" target="_blank">
-                    view
-               
-                  </a>
-
-                  <span className="text-[#448b8e] mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 ">
-                  <FaHtml5 className="h-[35px] w-[35px]" />
-                  </span>
-                  <span className="text-[#448b8e] inline-flex items-center leading-none text-sm mr-[24px]">
-                  <FaCss3Alt className="h-[35px] w-[35px]"/>
-                  </span>
-
-                  <span className="text-[#448b8e] inline-flex items-center leading-none text-sm">
-                  <IoLogoJavascript className="h-[35px] w-[35px]"/>
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          </div>
-
-
-          <div className="flex flex-wrap -m-4 mt-5" data-aos="fade-up">
-
-          <div className="p-4 md:w-1/3">
+          <div className="p-4 md:w-1/3" data-aos="fade-up">
             <div className="h-full border-2 border-[#448b8e] border-opacity-60 rounded-lg overflow-hidden">
               <Image
                 src={dynamicresume}
@@ -193,7 +149,54 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="p-4 md:w-1/3">
+        
+
+          {/* </div> */}
+
+
+          {/* <div className="flex flex-wrap -m-4 mt-5" data-aos="fade-up"> */}
+
+          <div className="p-4 md:w-1/3" data-aos="fade-up">
+            <div className="h-full border-2 border-[#448b8e] border-opacity-60 rounded-lg overflow-hidden">
+              <Image
+                src={portfolio}
+                alt="portfolio"
+                height={500}
+                width={500}
+                className="lg:h-56 md:h-40 w-full object-cover object-center"
+              />
+              <div className="p-6">
+               
+                <h1 className="title-font text-3xl text-[#448b8e] font-medium mb-3 underline underline-offset-[6px]">
+                  Portfolio
+                </h1>
+
+                <p className="leading-relaxed mb-3">
+                A responsive and visually appealing portfolio website created using HTML, CSS, and JavaScript. This sample project demonstrates a modern layout to showcase skills, projects, and contact information. It includes smooth navigation and interactive elements, making it a practical example of my frontend development skills.
+                </p>
+            
+                <div className="flex items-center flex-wrap mt-[80px]">
+                  <a className="text-[#448b8e] inline-flex items-center md:mb-2 lg:mb-0 cursor-pointer text-2xl underline underline-offset-4" target="_blank">
+                    view
+               
+                  </a>
+
+                  <span className="text-[#448b8e] mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 ">
+                  <FaHtml5 className="h-[35px] w-[35px]" />
+                  </span>
+                  <span className="text-[#448b8e] inline-flex items-center leading-none text-sm mr-[24px]">
+                  <FaCss3Alt className="h-[35px] w-[35px]"/>
+                  </span>
+
+                  <span className="text-[#448b8e] inline-flex items-center leading-none text-sm">
+                  <IoLogoJavascript className="h-[35px] w-[35px]"/>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-4 md:w-1/3" data-aos="fade-up">
             <div className="h-full border-2 border-[#448b8e] border-opacity-60 rounded-lg overflow-hidden">
               <Image
                 src={game}
@@ -233,7 +236,7 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="p-4 md:w-1/3">
+          <div className="p-4 md:w-1/3" data-aos="fade-up">
             <div className="h-full border-2 border-[#448b8e] border-opacity-60 rounded-lg overflow-hidden">
               <Image
                 src={nrcodex}
@@ -271,7 +274,7 @@ const Projects = () => {
             </div>
           </div>
          
-          </div>
+          {/* </div> */}
          
 
         </div>
