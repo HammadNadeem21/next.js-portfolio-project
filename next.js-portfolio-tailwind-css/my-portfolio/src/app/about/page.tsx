@@ -12,7 +12,7 @@ const About = () => {
           <div data-aos="fade-up" className="md:mt-20 sm:mt-3">
             <h1 className="text-white text-4xl font-bold">ABOUT ME</h1>
             <p className="mt-5 md:text-[22px] text-[18px]">
-              Hi! I&apos;m Hammad, a passionate Web Developer specializing in
+              Hi! I&#39;m Hammad, a passionate Web Developer specializing in
               frontend development with a keen eye for design and functionality.
               I am also venturing into software development and backend
               programming, aiming to become a full-stack developer.

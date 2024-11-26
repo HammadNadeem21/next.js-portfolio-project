@@ -36,7 +36,7 @@ const Hero = () => {
           </h1>
 
           <h1 className="inline lg:text-4xl md:text-3xl text-2xl font-[600] text-white">
-            I'm a{" "}
+            I&#39;m a{" "}
           </h1>
           <h1 className="inline-block lg:text-4xl md:text-3xl text-2xl font-[600] mt-3">
             <Typewriter
