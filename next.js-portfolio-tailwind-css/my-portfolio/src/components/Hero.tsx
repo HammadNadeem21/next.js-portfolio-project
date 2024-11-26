@@ -14,11 +14,9 @@ import { FaFacebook } from "react-icons/fa";
 const Hero = () => {
   return (
     <div className="min-h-screen">
-
       {/* Hero section start */}
       <div className="grid md:grid-cols-2 sm:grid-cols-1 justify-center pt-[100px] lg:px-[80px] md:px-[50px]  sm:justify-center">
         {/* Hero-section-left-side */}
-        
 
         <div data-aos="zoom-in-up" className="flex justify-center">
           <Image
@@ -33,9 +31,13 @@ const Hero = () => {
         {/* Hero-section-right-side */}
 
         <div data-aos="zoom-in-up" className="md:text-left text-center">
-          <h1 className="lg:text-5xl md:text-4xl text-3xl lg:font-[600] md:font-[600] mt-8">HAMMAD NADEEM</h1>
+          <h1 className="lg:text-5xl md:text-4xl text-3xl lg:font-[600] md:font-[600] mt-8">
+            HAMMAD NADEEM
+          </h1>
 
-          <h1 className="inline lg:text-4xl md:text-3xl text-2xl font-[600] text-white">I'm a </h1>
+          <h1 className="inline lg:text-4xl md:text-3xl text-2xl font-[600] text-white">
+            I'm a{" "}
+          </h1>
           <h1 className="inline-block lg:text-4xl md:text-3xl text-2xl font-[600] mt-3">
             <Typewriter
               options={{
@@ -50,7 +52,7 @@ const Hero = () => {
             />
           </h1>
           <p className="lg:text-3xl md:text-2xl text-1xl mt-3">
-          &quot;Web & Software Development for a Smarter Future&quot;
+            &quot;Web & Software Development for a Smarter Future&quot;
           </p>
 
           {/* social-icons */}

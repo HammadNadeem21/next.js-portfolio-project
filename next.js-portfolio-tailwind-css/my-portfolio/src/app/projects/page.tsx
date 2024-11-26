@@ -15,6 +15,7 @@ import { SiTailwindcss } from "react-icons/si";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
+import Footer from "@/components/Footer";
 
 const Projects = () => {
   return (
@@ -29,6 +30,7 @@ const Projects = () => {
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-wrap -m-4">
             {/* projects */}
+            
             {/* Todo-App */}
             <div className="p-4 md:w-1/3" data-aos="fade-up">
               <div className="h-full border-2 border-[#448b8e] border-opacity-60 rounded-lg overflow-hidden">
@@ -75,7 +77,7 @@ const Projects = () => {
               </div>
             </div>
 
-{/* Digital-Clock */}
+            {/* Digital-Clock */}
             <div className="p-4 md:w-1/3" data-aos="fade-up">
               <div className="h-full border-2 border-[#448b8e] border-opacity-60 rounded-lg overflow-hidden">
                 <Image
@@ -122,7 +124,7 @@ const Projects = () => {
               </div>
             </div>
 
-{/* Dynamic-Resume-Builder */}
+            {/* Dynamic-Resume-Builder */}
             <div className="p-4 md:w-1/3" data-aos="fade-up">
               <div className="h-full border-2 border-[#448b8e] border-opacity-60 rounded-lg overflow-hidden">
                 <Image
@@ -170,7 +172,7 @@ const Projects = () => {
               </div>
             </div>
 
-{/* Portfolio */}
+            {/* Portfolio */}
             <div className="p-4 md:w-1/3" data-aos="fade-up">
               <div className="h-full border-2 border-[#448b8e] border-opacity-60 rounded-lg overflow-hidden">
                 <Image
@@ -217,7 +219,7 @@ const Projects = () => {
               </div>
             </div>
 
-{/* Game */}
+            {/* Game */}
             <div className="p-4 md:w-1/3" data-aos="fade-up">
               <div className="h-full border-2 border-[#448b8e] border-opacity-60 rounded-lg overflow-hidden">
                 <Image
@@ -265,7 +267,7 @@ const Projects = () => {
               </div>
             </div>
 
-{/* Clone */}
+            {/* Clone */}
             <div className="p-4 md:w-1/3" data-aos="fade-up">
               <div className="h-full border-2 border-[#448b8e] border-opacity-60 rounded-lg overflow-hidden">
                 <Image
@@ -311,6 +313,8 @@ const Projects = () => {
           </div>
         </div>
       </section>
+
+      <Footer />
     </div>
   );
 };

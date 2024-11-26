@@ -8,33 +8,43 @@ import { AiOutlineJavaScript } from "react-icons/ai";
 import { SiTypescript } from "react-icons/si";
 import { RiNextjsLine } from "react-icons/ri";
 import { FaNodeJs } from "react-icons/fa";
-
-
+import Footer from "@/components/Footer";
 
 const Skills = () => {
   return (
     <div>
       <Navbar />
-      <h1 className="mt-[100px] text-center text-white text-4xl font-bold underline underline-offset-8" data-aos="fade-up">
+      <h1
+        className="mt-[100px] text-center text-white text-4xl font-bold underline underline-offset-8"
+        data-aos="fade-up"
+      >
         Skills
       </h1>
 
-      <h2 className="text-[#448b8e] text-center text-2xl mt-[25px]" data-aos="fade-up">
+      <h2
+        className="text-[#448b8e] text-center text-2xl mt-[25px]"
+        data-aos="fade-up"
+      >
         A blend of creativity, technology, and innovation.
       </h2>
 
-      <p className="text-[#448b8e] md:w-[50%] w-[80%] m-auto text-xl mt-[70px] text-center" data-aos="fade-up">
-        Over the years, I&apos;ve honed a diverse set of skills to craft impactful
-        digital experiences. Here&apos;s a glimpse into the tools and technologies I
-        excel in:
+      <p
+        className="text-[#448b8e] md:w-[50%] w-[80%] m-auto text-xl mt-[70px] text-center"
+        data-aos="fade-up"
+      >
+        Over the years, I&apos;ve honed a diverse set of skills to craft
+        impactful digital experiences. Here&apos;s a glimpse into the tools and
+        technologies I excel in:
       </p>
 
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">
+          {/* Frontend Developmen */}
 
-           {/* Frontend Developmen */}
-
-          <div className="flex flex-col text-center w-full mb-10" data-aos="fade-up">
+          <div
+            className="flex flex-col text-center w-full mb-10"
+            data-aos="fade-up"
+          >
             <h1 className="sm:text-3xl text-2xl font-medium title-font text-white underline underline-offset-[8px]">
               Frontend Development
             </h1>
@@ -83,16 +93,15 @@ const Skills = () => {
               </div>
             </div>
 
-
-              {/* Tailwind CSS */}
-              <div className="p-4 w-full md:w-1/2 lg:w-1/3 " data-aos="fade-up">
+            {/* Tailwind CSS */}
+            <div className="p-4 w-full md:w-1/2 lg:w-1/3 " data-aos="fade-up">
               <div className="flex rounded-lg h-full p-8 flex-col">
                 <div className="flex items-center mb-3">
                   <div className="w-9 h-9 mr-3 inline-flex items-center justify-center rounded-full bg-[#448b8e] text-white text-[22px] flex-shrink-0">
                     <SiTailwindcss />
                   </div>
                   <h2 className="text-[#448b8e] text-lg title-font font-semibold">
-                  Tailwind CSS
+                    Tailwind CSS
                   </h2>
                 </div>
 
@@ -105,7 +114,6 @@ const Skills = () => {
               </div>
             </div>
 
-
             {/* Javascript */}
             <div className="p-4 w-full md:w-1/2 lg:w-1/3 " data-aos="fade-up">
               <div className="flex rounded-lg h-full p-8 flex-col">
@@ -114,7 +122,7 @@ const Skills = () => {
                     <AiOutlineJavaScript />
                   </div>
                   <h2 className="text-[#448b8e] text-lg title-font font-semibold">
-                  Javascript
+                    Javascript
                   </h2>
                 </div>
 
@@ -132,10 +140,10 @@ const Skills = () => {
               <div className="flex rounded-lg h-full p-8 flex-col">
                 <div className="flex items-center mb-3">
                   <div className="w-9 h-9 mr-3 inline-flex items-center justify-center rounded-full bg-[#448b8e] text-white text-[22px] flex-shrink-0">
-                    <SiTypescript className="bg-transparent"/>
+                    <SiTypescript className="bg-transparent" />
                   </div>
                   <h2 className="text-[#448b8e] text-lg title-font font-semibold">
-                  Typescript
+                    Typescript
                   </h2>
                 </div>
 
@@ -148,15 +156,15 @@ const Skills = () => {
               </div>
             </div>
 
-           {/* Next.js */}
-           <div className="p-4 w-full md:w-1/2 lg:w-1/3 " data-aos="fade-up">
+            {/* Next.js */}
+            <div className="p-4 w-full md:w-1/2 lg:w-1/3 " data-aos="fade-up">
               <div className="flex rounded-lg h-full p-8 flex-col">
                 <div className="flex items-center mb-3">
                   <div className="w-9 h-9 mr-3 inline-flex items-center justify-center rounded-full bg-[#448b8e] text-white text-[25px] flex-shrink-0 pt-[2px] pl-[2px]">
                     <RiNextjsLine />
                   </div>
                   <h2 className="text-[#448b8e] text-lg title-font font-semibold">
-                  Next.js
+                    Next.js
                   </h2>
                 </div>
 
@@ -168,25 +176,30 @@ const Skills = () => {
                 </h3>
               </div>
             </div>
-           
-           {/* Backend Developmen */}
 
-            <div className="flex flex-col text-center w-full mb-10 mt-[30px]" data-aos="fade-up">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font text-white underline underline-offset-[8px]">
-              Backend Development
-            </h1>
+            {/* Backend Developmen */}
 
-          </div>
-{/* Node.js */}
+            <div
+              className="flex flex-col text-center w-full mb-10 mt-[30px]"
+              data-aos="fade-up"
+            >
+              <h1 className="sm:text-3xl text-2xl font-medium title-font text-white underline underline-offset-[8px]">
+                Backend Development
+              </h1>
+            </div>
+            {/* Node.js */}
 
-          <div className="p-4 w-full md:w-1/2 lg:w-1/3" data-aos="fade-up">
-              <div className="flex rounded-lg h-full p-8 flex-col" data-aos="fade-up">
+            <div className="p-4 w-full md:w-1/2 lg:w-1/3" data-aos="fade-up">
+              <div
+                className="flex rounded-lg h-full p-8 flex-col"
+                data-aos="fade-up"
+              >
                 <div className="flex items-center mb-3">
                   <div className="w-9 h-9 mr-3 inline-flex items-center justify-center rounded-full bg-[#448b8e] text-white text-[25px] flex-shrink-0 pt-[2px] pl-[2px]">
                     <FaNodeJs />
                   </div>
                   <h2 className="text-[#448b8e] text-lg title-font font-semibold">
-                  Node.js
+                    Node.js
                   </h2>
                 </div>
 
@@ -198,11 +211,10 @@ const Skills = () => {
                 </h3>
               </div>
             </div>
-
           </div>
         </div>
-      </section> 
-           
+      </section>
+      <Footer />
     </div>
   );
 };

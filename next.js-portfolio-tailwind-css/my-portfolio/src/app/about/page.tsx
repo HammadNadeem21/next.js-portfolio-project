@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import React from "react";
 
@@ -26,23 +27,30 @@ const About = () => {
             <h2 className="text-white text-3xl font-bold">What I Do</h2>
             <ul className="list-none mt-5 md:text-[22px] text-[18px]">
               <li className="before:content-['•'] before:text-white before:text-2xl before:mr-4">
-                <span className="text-white font-bold">Frontend Development :</span> Creating
-                user-centric, responsive, and visually appealing interfaces.
+                <span className="text-white font-bold">
+                  Frontend Development :
+                </span>{" "}
+                Creating user-centric, responsive, and visually appealing
+                interfaces.
               </li>
               <li className="before:content-['•'] before:text-white before:text-2xl before:mr-4">
-                <span className="text-white font-bold">Backend Learning :</span> Building
-                robust and scalable server-side applications.
+                <span className="text-white font-bold">Backend Learning :</span>{" "}
+                Building robust and scalable server-side applications.
               </li>
               <li className="before:content-['•'] before:text-white before:text-2xl before:mr-4">
-                <span className="text-white font-bold">Software Development :</span> Developing innovative software solutions to solve real-world
+                <span className="text-white font-bold">
+                  Software Development :
+                </span>{" "}
+                Developing innovative software solutions to solve real-world
                 problems.
               </li>
               <li className="before:content-['•'] before:text-white before:text-2xl before:mr-4">
-                <span className="text-white font-bold">AI & Web 3.0 Enthusiast :</span> Understanding and applying futuristic technologies in modern web
+                <span className="text-white font-bold">
+                  AI & Web 3.0 Enthusiast :
+                </span>{" "}
+                Understanding and applying futuristic technologies in modern web
                 applications.
               </li>
-
-        
             </ul>
           </div>
           <br />
@@ -60,6 +68,7 @@ const About = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
