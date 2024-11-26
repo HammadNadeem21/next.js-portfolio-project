@@ -29,6 +29,7 @@ const Projects = () => {
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-wrap -m-4">
             {/* projects */}
+            {/* Todo-App */}
             <div className="p-4 md:w-1/3" data-aos="fade-up">
               <div className="h-full border-2 border-[#448b8e] border-opacity-60 rounded-lg overflow-hidden">
                 <Image
@@ -51,7 +52,7 @@ const Projects = () => {
                     creating functional web applications.
                   </p>
 
-                  <div className="flex items-center flex-wrap mt-[110px]">
+                  <div className="flex items-center flex-wrap mt-[130px]">
                     <a
                       className="text-[#448b8e] inline-flex items-center md:mb-2 lg:mb-0 cursor-pointer text-2xl underline underline-offset-4"
                       target="_blank"
@@ -74,6 +75,7 @@ const Projects = () => {
               </div>
             </div>
 
+{/* Digital-Clock */}
             <div className="p-4 md:w-1/3" data-aos="fade-up">
               <div className="h-full border-2 border-[#448b8e] border-opacity-60 rounded-lg overflow-hidden">
                 <Image
@@ -97,7 +99,7 @@ const Projects = () => {
                     dynamic functionality.
                   </p>
 
-                  <div className="flex items-center flex-wrap mt-[80px]">
+                  <div className="flex items-center flex-wrap mt-[100px]">
                     <a
                       className="text-[#448b8e] inline-flex items-center md:mb-2 lg:mb-0 cursor-pointer text-2xl underline underline-offset-4"
                       target="_blank"
@@ -120,6 +122,7 @@ const Projects = () => {
               </div>
             </div>
 
+{/* Dynamic-Resume-Builder */}
             <div className="p-4 md:w-1/3" data-aos="fade-up">
               <div className="h-full border-2 border-[#448b8e] border-opacity-60 rounded-lg overflow-hidden">
                 <Image
@@ -167,6 +170,7 @@ const Projects = () => {
               </div>
             </div>
 
+{/* Portfolio */}
             <div className="p-4 md:w-1/3" data-aos="fade-up">
               <div className="h-full border-2 border-[#448b8e] border-opacity-60 rounded-lg overflow-hidden">
                 <Image
@@ -213,6 +217,7 @@ const Projects = () => {
               </div>
             </div>
 
+{/* Game */}
             <div className="p-4 md:w-1/3" data-aos="fade-up">
               <div className="h-full border-2 border-[#448b8e] border-opacity-60 rounded-lg overflow-hidden">
                 <Image
@@ -260,6 +265,7 @@ const Projects = () => {
               </div>
             </div>
 
+{/* Clone */}
             <div className="p-4 md:w-1/3" data-aos="fade-up">
               <div className="h-full border-2 border-[#448b8e] border-opacity-60 rounded-lg overflow-hidden">
                 <Image
