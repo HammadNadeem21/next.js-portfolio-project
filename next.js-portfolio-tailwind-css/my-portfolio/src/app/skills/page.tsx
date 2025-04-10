@@ -9,6 +9,9 @@ import { SiTypescript } from "react-icons/si";
 import { RiNextjsLine } from "react-icons/ri";
 import { FaNodeJs } from "react-icons/fa";
 import Footer from "@/components/Footer";
+import { SiMongodb } from "react-icons/si";
+import { FaPython } from "react-icons/fa";
+import { FaReact } from "react-icons/fa";
 
 const Skills = () => {
   return (
@@ -39,14 +42,13 @@ const Skills = () => {
 
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">
-          {/* Frontend Developmen */}
-
+          {/* Skills Set */}
           <div
             className="flex flex-col text-center w-full mb-10"
             data-aos="fade-up"
           >
             <h1 className="sm:text-3xl text-2xl font-medium title-font text-white underline underline-offset-[8px]">
-              Frontend Development
+              My Skill Set
             </h1>
           </div>
 
@@ -161,6 +163,27 @@ const Skills = () => {
               <div className="flex rounded-lg h-full p-8 flex-col">
                 <div className="flex items-center mb-3">
                   <div className="w-9 h-9 mr-3 inline-flex items-center justify-center rounded-full bg-[#448b8e] text-white text-[25px] flex-shrink-0 pt-[2px] pl-[2px]">
+                    <FaReact />
+                  </div>
+                  <h2 className="text-[#448b8e] text-lg title-font font-semibold">
+                    React.js
+                  </h2>
+                </div>
+
+                <div className="w-full h-[5px] rounded-lg bg-white">
+                  <div className="w-[90%] h-[5px] rounded-lg bg-[#448b8e]"></div>
+                </div>
+                <h3 className="text-[#448b8e] text-md text-right title-font font-semibold">
+                  90%
+                </h3>
+              </div>
+            </div>
+
+            {/* Next.js */}
+            <div className="p-4 w-full md:w-1/2 lg:w-1/3 " data-aos="fade-up">
+              <div className="flex rounded-lg h-full p-8 flex-col">
+                <div className="flex items-center mb-3">
+                  <div className="w-9 h-9 mr-3 inline-flex items-center justify-center rounded-full bg-[#448b8e] text-white text-[25px] flex-shrink-0 pt-[2px] pl-[2px]">
                     <RiNextjsLine />
                   </div>
                   <h2 className="text-[#448b8e] text-lg title-font font-semibold">
@@ -169,24 +192,14 @@ const Skills = () => {
                 </div>
 
                 <div className="w-full h-[5px] rounded-lg bg-white">
-                  <div className="w-[60%] h-[5px] rounded-lg bg-[#448b8e]"></div>
+                  <div className="w-[90%] h-[5px] rounded-lg bg-[#448b8e]"></div>
                 </div>
                 <h3 className="text-[#448b8e] text-md text-right title-font font-semibold">
-                  60%
+                  90%
                 </h3>
               </div>
             </div>
 
-            {/* Backend Developmen */}
-
-            <div
-              className="flex flex-col text-center w-full mb-10 mt-[30px]"
-              data-aos="fade-up"
-            >
-              <h1 className="sm:text-3xl text-2xl font-medium title-font text-white underline underline-offset-[8px]">
-                Backend Development
-              </h1>
-            </div>
             {/* Node.js */}
 
             <div className="p-4 w-full md:w-1/2 lg:w-1/3" data-aos="fade-up">
@@ -204,10 +217,58 @@ const Skills = () => {
                 </div>
 
                 <div className="w-full h-[5px] rounded-lg bg-white">
-                  <div className="w-[10%] h-[5px] rounded-lg bg-[#448b8e]"></div>
+                  <div className="w-[60%] h-[5px] rounded-lg bg-[#448b8e]"></div>
                 </div>
                 <h3 className="text-[#448b8e] text-md text-right title-font font-semibold">
-                  10%
+                  60%
+                </h3>
+              </div>
+            </div>
+
+            {/* MongoDB */}
+            <div className="p-4 w-full md:w-1/2 lg:w-1/3" data-aos="fade-up">
+              <div
+                className="flex rounded-lg h-full p-8 flex-col"
+                data-aos="fade-up"
+              >
+                <div className="flex items-center mb-3">
+                  <div className="w-9 h-9 mr-3 inline-flex items-center justify-center rounded-full bg-[#448b8e] text-white text-[25px] flex-shrink-0 pt-[2px] pl-[2px]">
+                    <SiMongodb />
+                  </div>
+                  <h2 className="text-[#448b8e] text-lg title-font font-semibold">
+                    MongoDB
+                  </h2>
+                </div>
+
+                <div className="w-full h-[5px] rounded-lg bg-white">
+                  <div className="w-[60%] h-[5px] rounded-lg bg-[#448b8e]"></div>
+                </div>
+                <h3 className="text-[#448b8e] text-md text-right title-font font-semibold">
+                  60%
+                </h3>
+              </div>
+            </div>
+
+            {/* Python */}
+            <div className="p-4 w-full md:w-1/2 lg:w-1/3" data-aos="fade-up">
+              <div
+                className="flex rounded-lg h-full p-8 flex-col"
+                data-aos="fade-up"
+              >
+                <div className="flex items-center mb-3">
+                  <div className="w-9 h-9 mr-3 inline-flex items-center justify-center rounded-full bg-[#448b8e] text-white text-[25px] flex-shrink-0 pt-[2px] pl-[2px]">
+                    <FaPython />
+                  </div>
+                  <h2 className="text-[#448b8e] text-lg title-font font-semibold">
+                    Python
+                  </h2>
+                </div>
+
+                <div className="w-full h-[5px] rounded-lg bg-white">
+                  <div className="w-[60%] h-[5px] rounded-lg bg-[#448b8e]"></div>
+                </div>
+                <h3 className="text-[#448b8e] text-md text-right title-font font-semibold">
+                  60%
                 </h3>
               </div>
             </div>
